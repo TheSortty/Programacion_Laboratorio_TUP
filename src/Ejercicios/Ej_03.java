@@ -1,7 +1,5 @@
 package Ejercicios;
 
-import java.util.Scanner;
-
 public class Ej_03 {
     public static void main(String[] args) {
         int Num1 = 15, Num2 = 35;

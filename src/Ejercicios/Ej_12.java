@@ -12,23 +12,11 @@ public class Ej_12 {
             Dia = scanner.nextInt();
         } while (Dia < 1 || Dia > 7);
 
-        String Estado;
-
-        switch (Dia) {
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-                Estado = "Laboral";
-                break;
-            case 6:
-            case 7:
-                Estado = "No Laboral";
-                break;
-            default:
-                Estado = "Día no válido";
-        }
+        String Estado = switch (Dia) {
+            case 1, 2, 3, 4, 5 -> "Laboral";
+            case 6, 7 -> "No Laboral";
+            default -> "Día no válido";
+        };
 
         System.out.println("El día " + Dia + " es un día " + Estado + ".");
     }
