@@ -10,6 +10,9 @@ public class Ej_12 {
         do {
             System.out.print("Ingresa un número del 1 al 7 para representar un día de la semana: ");
             Dia = scanner.nextInt();
+            if  (Dia > 7 || Dia <= 0){
+                System.out.println("DIA INVALIDO");
+            }
         } while (Dia < 1 || Dia > 7);
 
         String Estado = switch (Dia) {
