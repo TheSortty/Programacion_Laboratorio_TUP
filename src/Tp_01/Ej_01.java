@@ -1,6 +1,5 @@
-package Ejercicios;
+package Tp_01;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Ej_01 {

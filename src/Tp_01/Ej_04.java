@@ -1,4 +1,4 @@
-package Ejercicios;
+package Tp_01;
 public class Ej_04 {
     public static void main(String[] args) {
         int Num1 = 10, Num2 = 24;
