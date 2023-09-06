@@ -51,14 +51,14 @@ public class Ej_20 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Ingrese el numerador de la primera fracción:");
+            System.out.println("Ingrese el numerador de la primera fraccion:");
             int numerador1 = scanner.nextInt();
-            System.out.println("Ingrese el denominador de la primera fracción (distinto de cero):");
+            System.out.println("Ingrese el denominador de la primera fraccion (distinto de cero):");
             int denominador1 = scanner.nextInt();
 
-            System.out.println("Ingrese el numerador de la segunda fracción:");
+            System.out.println("Ingrese el numerador de la segunda fraccion:");
             int numerador2 = scanner.nextInt();
-            System.out.println("Ingrese el denominador de la segunda fracción (distinto de cero):");
+            System.out.println("Ingrese el denominador de la segunda fraccion (distinto de cero):");
             int denominador2 = scanner.nextInt();
 
             Fraccion fraccion1 = new Fraccion(numerador1, denominador1);
@@ -72,8 +72,8 @@ public class Ej_20 {
                 Fraccion division = fraccion1.dividirFracciones(fraccion1, fraccion2);
                 System.out.println("Suma: " + suma);
                 System.out.println("Resta: " + resta);
-                System.out.println("Multiplicación: " + multiplicacion);
-                System.out.println("División: " + division);
+                System.out.println("Multiplicacion: " + multiplicacion);
+                System.out.println("Division: " + division);
             } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
