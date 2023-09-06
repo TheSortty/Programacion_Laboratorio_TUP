@@ -2,7 +2,7 @@ package Tp_02;
 import java.util.Calendar;
 import java.util.Date;
 public class Ej_18 {
-    public class FuncionesPrograma {
+    class FuncionesPrograma {
         public static Date getFechaDate(int dia, int mes, int anio) {
             Calendar calendario = Calendar.getInstance();
             calendario.set(anio, mes - 1, dia);
@@ -10,7 +10,7 @@ public class Ej_18 {
         }
     }
 
-    public class Principal {
+    public static class Principal {
         public static void main(String[] args) {
             int dia = 1;
             int mes = 1;
