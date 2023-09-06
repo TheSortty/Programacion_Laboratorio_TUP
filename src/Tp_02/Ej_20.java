@@ -47,7 +47,7 @@ public class Ej_20 {
         }
     }
 
-    public class OperacionesFraccion {
+    public static class OperacionesFraccion {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
